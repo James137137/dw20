@@ -1,0 +1,112 @@
+ERROR: system: Crop is already defined in that package
+ERROR: system: AutoSpawner is already defined in that package
+INFO: MineTweaker: Building registry
+INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command mfr
+INFO: Removing 0 recipes
+INFO: Adding recipe for Voidstone
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Initializing 'lolnetchanges.zs'...
+INFO: Removing 0 recipes
+INFO: Adding tooltip for <ThaumicTinkerer:shareBook>: minetweaker.mc1710.formatting.FormattedMarkupString@1bc5d373
+INFO: Removing 0 recipes
+INFO: Adding tooltip for <ExtraUtilities:enderQuarryUpgrade:1>: minetweaker.mc1710.formatting.FormattedMarkupString@2a45bd99
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <Mystcraft:BlockInkMixer>: minetweaker.mc1710.formatting.FormattedMarkupString@72573e68
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <MineFactoryReloaded:machine.2:10>: minetweaker.mc1710.formatting.FormattedMarkupString@57ab8fb2
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <StevesCarts:CartModule:49>: minetweaker.mc1710.formatting.FormattedMarkupString@16573f4f
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <Railcraft:machine.alpha:13>: minetweaker.mc1710.formatting.FormattedMarkupString@b3f80f2
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <Railcraft:machine.alpha>: minetweaker.mc1710.formatting.FormattedMarkupString@19d1f124
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <Railcraft:machine.alpha:2>: minetweaker.mc1710.formatting.FormattedMarkupString@2ce5b9c1
+INFO: Removing 0 recipes
+INFO: Adding tooltip for <Railcraft:machine.alpha:4>: minetweaker.mc1710.formatting.FormattedMarkupString@2c36168
+INFO: Removing 1 recipes
+INFO: Adding tooltip for <Railcraft:machine.beta:10>: minetweaker.mc1710.formatting.FormattedMarkupString@148bfe53
+INFO: Initialized 'lolnetchanges.zs'
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Chisel
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Isolator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Sequencer
+INFO: Removing 1 recipes
+INFO: Adding recipe for Polymeriser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Inoculator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Analyser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Incubator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Genepool
+INFO: Removing 1 recipes
+INFO: Adding recipe for Acclimatiser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Lumbermill
+INFO: Removing 1 recipes
+INFO: Adding recipe for Fruit Press
+INFO: Removing 1 recipes
+INFO: Adding recipe for Brewery
+INFO: Removing 1 recipes
+INFO: Adding recipe for Distillery
+INFO: Removing 0 recipes
+ERROR: Banned-Items.zs:1: Could not resolve <BuildCraft | Factory : machineBlock>
+ERROR: ?:1 > could not find recipe
+ERROR: Banned-Items.zs:2 > could not find recipe
+ERROR: Error executing Banned-Items.zs: null
+java.lang.NullPointerException
+	at Banned-Items.__script__(Banned-Items.zs:1)
+	at __ZenMain__.run(Banned-Items.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:163)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:656)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:566)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:277)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:335)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+INFO: Adding recipe for Sanguine Scientiem
