@@ -107,29 +107,29 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-factorization-DarkIronOreGenerator: true
-    worldgen-factorization-WorldGenColossus: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-Natura-BaseTreeWorldgen: true
     worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-IC2-IC2: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-TConstruct-SlimeIslandGen: true
     worldgen-ExtraBees-ModuleGeneration: true
     worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-IC2-IC2: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-Forestry-WorldGenerator: true
     worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
     worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-factorization-DarkIronOreGenerator: true
+    worldgen-factorization-WorldGenColossus: true
     worldgen-Natura-BaseCropWorldgen: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-chisel-GeneratorChisel: true
     worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-rftools-GenericWorldGenerator: true
-    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-Mystcraft-MystWorldGenerator: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
   max-players-visible: -1
   use-real-names: false
 protection:
@@ -154,14 +154,12 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
-    enabled: true
   storage:
     keep-world-loaded: false
   endoftime:
     keep-world-loaded: true
   underdark:
     keep-world-loaded: false
-    enabled: true
   hammer:
     keep-world-loaded: true
     enabled: true
@@ -171,16 +169,11 @@ world-environment-settings:
     keep-world-loaded: false
   twilightforest:
     keep-world-loaded: false
-    enabled: true
   bedrock:
     keep-world-loaded: false
-    enabled: true
   dreamworld:
     keep-world-loaded: false
   torment:
     keep-world-loaded: false
   mirror:
     keep-world-loaded: false
-  mystdummy:
-    keep-world-loaded: true
-    enabled: true
